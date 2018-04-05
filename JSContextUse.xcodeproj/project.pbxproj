@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		12537D9620763CDB00B17E1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12537D9520763CDB00B17E1F /* AppDelegate.m */; };
-		12537D9920763CDB00B17E1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12537D9820763CDB00B17E1F /* ViewController.m */; };
 		12537D9C20763CDB00B17E1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12537D9A20763CDB00B17E1F /* Main.storyboard */; };
 		12537D9E20763CDB00B17E1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12537D9D20763CDB00B17E1F /* Assets.xcassets */; };
 		12537DA120763CDB00B17E1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12537D9F20763CDB00B17E1F /* LaunchScreen.storyboard */; };
 		12537DA420763CDB00B17E1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12537DA320763CDB00B17E1F /* main.m */; };
 		12537DAE20763CDB00B17E1F /* JSContextUseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12537DAD20763CDB00B17E1F /* JSContextUseTests.m */; };
 		12537DB920763CDB00B17E1F /* JSContextUseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12537DB820763CDB00B17E1F /* JSContextUseUITests.m */; };
+		12537DC820763EA100B17E1F /* WSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12537DC720763EA100B17E1F /* WSTableViewController.m */; };
+		12537DCB2076404900B17E1F /* WSWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12537DCA2076404900B17E1F /* WSWebViewController.m */; };
+		12537DD32076438700B17E1F /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 12537DD22076438700B17E1F /* TestObject.m */; };
+		12537DD7207647FA00B17E1F /* WebViewTest_01.html in Resources */ = {isa = PBXBuildFile; fileRef = 12537DD5207647FA00B17E1F /* WebViewTest_01.html */; };
+		12537DD8207647FA00B17E1F /* WebViewTest_02.html in Resources */ = {isa = PBXBuildFile; fileRef = 12537DD6207647FA00B17E1F /* WebViewTest_02.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +42,6 @@
 		12537D9120763CDB00B17E1F /* JSContextUse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSContextUse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12537D9420763CDB00B17E1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		12537D9520763CDB00B17E1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		12537D9720763CDB00B17E1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		12537D9820763CDB00B17E1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		12537D9B20763CDB00B17E1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12537D9D20763CDB00B17E1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12537DA020763CDB00B17E1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,14 @@
 		12537DB420763CDB00B17E1F /* JSContextUseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSContextUseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12537DB820763CDB00B17E1F /* JSContextUseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSContextUseUITests.m; sourceTree = "<group>"; };
 		12537DBA20763CDB00B17E1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12537DC620763EA100B17E1F /* WSTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSTableViewController.h; sourceTree = "<group>"; };
+		12537DC720763EA100B17E1F /* WSTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSTableViewController.m; sourceTree = "<group>"; };
+		12537DC92076404900B17E1F /* WSWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSWebViewController.h; sourceTree = "<group>"; };
+		12537DCA2076404900B17E1F /* WSWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSWebViewController.m; sourceTree = "<group>"; };
+		12537DD12076438700B17E1F /* TestObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
+		12537DD22076438700B17E1F /* TestObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
+		12537DD5207647FA00B17E1F /* WebViewTest_01.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = WebViewTest_01.html; sourceTree = "<group>"; };
+		12537DD6207647FA00B17E1F /* WebViewTest_02.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = WebViewTest_02.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +91,7 @@
 		12537D8820763CDB00B17E1F = {
 			isa = PBXGroup;
 			children = (
+				12537DD4207647FA00B17E1F /* SupportingFiles */,
 				12537D9320763CDB00B17E1F /* JSContextUse */,
 				12537DAC20763CDB00B17E1F /* JSContextUseTests */,
 				12537DB720763CDB00B17E1F /* JSContextUseUITests */,
@@ -103,8 +114,12 @@
 			children = (
 				12537D9420763CDB00B17E1F /* AppDelegate.h */,
 				12537D9520763CDB00B17E1F /* AppDelegate.m */,
-				12537D9720763CDB00B17E1F /* ViewController.h */,
-				12537D9820763CDB00B17E1F /* ViewController.m */,
+				12537DC620763EA100B17E1F /* WSTableViewController.h */,
+				12537DC720763EA100B17E1F /* WSTableViewController.m */,
+				12537DC92076404900B17E1F /* WSWebViewController.h */,
+				12537DCA2076404900B17E1F /* WSWebViewController.m */,
+				12537DD12076438700B17E1F /* TestObject.h */,
+				12537DD22076438700B17E1F /* TestObject.m */,
 				12537D9A20763CDB00B17E1F /* Main.storyboard */,
 				12537D9D20763CDB00B17E1F /* Assets.xcassets */,
 				12537D9F20763CDB00B17E1F /* LaunchScreen.storyboard */,
@@ -130,6 +145,15 @@
 				12537DBA20763CDB00B17E1F /* Info.plist */,
 			);
 			path = JSContextUseUITests;
+			sourceTree = "<group>";
+		};
+		12537DD4207647FA00B17E1F /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				12537DD5207647FA00B17E1F /* WebViewTest_01.html */,
+				12537DD6207647FA00B17E1F /* WebViewTest_02.html */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,9 +262,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12537DD8207647FA00B17E1F /* WebViewTest_02.html in Resources */,
 				12537DA120763CDB00B17E1F /* LaunchScreen.storyboard in Resources */,
 				12537D9E20763CDB00B17E1F /* Assets.xcassets in Resources */,
 				12537D9C20763CDB00B17E1F /* Main.storyboard in Resources */,
+				12537DD7207647FA00B17E1F /* WebViewTest_01.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +291,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12537D9920763CDB00B17E1F /* ViewController.m in Sources */,
+				12537DCB2076404900B17E1F /* WSWebViewController.m in Sources */,
 				12537DA420763CDB00B17E1F /* main.m in Sources */,
 				12537D9620763CDB00B17E1F /* AppDelegate.m in Sources */,
+				12537DD32076438700B17E1F /* TestObject.m in Sources */,
+				12537DC820763EA100B17E1F /* WSTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

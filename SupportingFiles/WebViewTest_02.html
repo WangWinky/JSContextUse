@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>测试</title>
+        
+        <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+                <link rel="stylesheet" href="css/default.css" />
+                <style>
+                    .ulrs {
+                        margin-bottom: 10px;
+                    }
+                .ulrs button {
+                    display: block;
+                    height: 45px;
+                    width: 90%;
+                    margin: auto;
+                    text-align: center;
+                    background-color: lightseagreen;
+                    border-radius: 5px;
+                }
+                </style>
+                </head>
+    <body>
+        <ul class="ulrs">
+            
+            <li><button onclick="obshare();">对象调用分享无参</button></li>
+            <li><button onclick="obshare1();">对象调用分享一个参数</button></li>
+            <li><button onclick="obshare2();">对象调用分享两个参数</button></li>
+             <li><button onclick="obshare3();">对象调用分享三个参数</button></li>
+            
+        </ul>
+        
+        <script>
+            
+        function obshare() {
+            testObject.jumpShareSdk();
+        }
+        function obshare1() {
+            var title = '测试分享的标题';
+            testObject.jumpShareSdkOneParameter(title);
+        }
+        function obshare2() {
+            var title = '测试分享的标题';
+            var content = '测试分享的内容';
+            var url = 'http:www.baidu.com';
+            testObject.jumpShareSdkTwo(title,content,url);
+        }
+        function obshare2() {
+            var title = '测试分享的标题';
+            var content = '测试分享的内容';
+            testObject.jumpShareSdkTwo(title,content);
+        }
+        function obshare3() {
+            var title = '测试分享的标题';
+            var content = '测试分享的内容';
+            var url = 'http:www.baidu.com';
+            testObject.jumpShareSdkThree(title,content,url);
+        }
+        </script>
+    </body>
+</html>
+

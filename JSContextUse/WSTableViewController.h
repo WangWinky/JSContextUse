@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WSTableViewController.h
 //  JSContextUse
 //
 //  Created by wangshanshan on 2018/4/5.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface WSTableViewController : UITableViewController
 
 @end
-

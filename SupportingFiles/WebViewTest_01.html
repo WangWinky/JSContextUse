@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>测试</title>
+        
+        <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+                <link rel="stylesheet" href="css/default.css" />
+                <style>
+                    .ulrs {
+                        margin-bottom: 10px;
+                    }
+                .ulrs button {
+                    display: block;
+                    height: 45px;
+                    width: 90%;
+                    margin: auto;
+                    text-align: center;
+                    background-color: lightseagreen;
+                    border-radius: 5px;
+                }
+                </style>
+                </head>
+    <body>
+        <ul class="ulrs">
+            
+            <li><button onclick="share();">分享无参</button></li>
+            <li><button onclick="share1();">分享一个参数</button></li>
+            <li><button onclick="share2();">分享两个参数</button></li>
+            
+        </ul>
+        
+        
+        <script>
+            function share() {
+                jumpShareSdk();
+            }
+        function share1() {
+            var title = '测试分享的标题';
+            jumpShareSdk1(title);
+        }
+        function share2() {
+            var title = '测试分享的标题';
+            var content = '测试分享的内容';
+            jumpShareSdk2(title,content);
+        }
+        
+        </script>
+    </body>
+</html>
+
